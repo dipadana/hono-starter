@@ -6,4 +6,4 @@ user.get('/', (c) => {
   return c.json({ message: "This route user" })
 })
 
-export { user }
+export default user

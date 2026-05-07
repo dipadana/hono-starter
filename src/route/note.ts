@@ -57,4 +57,4 @@ note.delete('/:id', async (c) => {
   return c.json({ message: "Your note succesfuly deleted" })
 })
 
-export { note } 
+export default note
